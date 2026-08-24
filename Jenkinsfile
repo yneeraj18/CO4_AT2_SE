@@ -35,7 +35,7 @@ pipeline {
         stage('Run New Container') {
             steps {
                 echo 'Starting new container...'
-                bat 'docker run -d -p 8080:80 --name smart-solar-farm-container smart-solar-farm:latest'
+                bat 'docker run -d -p 8081:80 --name smart-solar-farm-container smart-solar-farm:latest'
             }
         }
     }
