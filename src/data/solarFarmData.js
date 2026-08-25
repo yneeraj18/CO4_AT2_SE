@@ -1,7 +1,7 @@
 // Smart Solar Farm Initial Data & Simulation Defaults
 
 export const PLANT_INFO = {
-  name: "Neeraj reddy solar park",
+  name: "kanekal solar park",
   location: "Bhadla Sun Basin, Rajasthan, IN (27.53° N, 71.91° E)",
   capacityMW: 150,
   installedPanels: 420000,
